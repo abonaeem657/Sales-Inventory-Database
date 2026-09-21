@@ -1,0 +1,83 @@
+# Sales & Inventory Management Database
+
+A SQL Server database project designed to manage sales, inventory, customers, suppliers, companies, branches, warehouses, and purchase operations.
+
+## Technologies
+
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- T-SQL
+
+## Database Features
+
+- 11 relational tables
+- Primary and Foreign Keys
+- Constraints and data validation
+- Views
+- Functions
+- Stored Procedures
+- Triggers
+- Indexes
+- Sample data
+- Sales and inventory reports
+
+## Main Tables
+
+- Companies
+- Branches
+- Customers
+- Suppliers
+- Items
+- Warehouses
+- PurchaseOrders
+- PurchaseOrderDetails
+- SalesOrders
+- SalesOrderDetails
+- InventoryTransactions
+
+## Reports & Analytics
+
+The database includes queries and database objects for:
+
+- Total sales
+- Total quantities
+- Profit calculation
+- Sales grouped by company and city
+- Customer sales summary
+- Customer debt calculation
+- Inventory balance
+- Top 10 customers
+- Filtered sales reports
+
+## Database Objects
+
+### Views
+- SalesAnalyticsView
+- SalesByCompanyCity
+- TotalItemQuantity
+- Profit
+
+### Functions
+- FProfit
+- Sumarybuy
+- TotalPaid
+
+### Stored Procedures
+- SalesReport
+- InventoryBalance
+- Top10Customers
+- GetCustomerSales
+
+### Trigger
+- CustomerInsertTrigger
+
+## How to Run
+
+1. Open SQL Server Management Studio (SSMS).
+2. Open the `workDB.sql` file.
+3. Execute the SQL script.
+4. The database structure and sample data will be created.
+
+## Purpose
+
+This project demonstrates practical database design and T-SQL skills including relational database modeling, data integrity, reporting, aggregation, functions, stored procedures, triggers, and indexing.
