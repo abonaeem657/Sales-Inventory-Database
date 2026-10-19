@@ -84,5 +84,6 @@ This project demonstrates practical database design and T-SQL skills including r
 
 ## Verification and screenshots
 
-This repository is a SQL Server script, not a web application, so it has no pages to screenshot. The T-SQL file is [workDB.sql](workDB.sql). A local SQL Server service was present, but this script was not executed against an existing server because it creates `workDB` at a hard-coded SQL Server 2025 data path and sets compatibility level 170; doing so could collide with an existing database or server configuration. Run it in a dedicated development database and review the query results in SSMS. No application screenshot is claimed.
+This repository is a SQL Server script, not a web application, so it has no pages to screenshot. The T-SQL file is [workDB.sql](workDB.sql). A local SQL Server service was present, but this script was not executed against an existing server because it creates `workDB` at a hard-coded SQL Server 2025 data path and sets compatibility level 170; doing so could collide with an existing database or server configuration. Review and adapt the database name, file paths, and compatibility level before running it on a dedicated development server; then inspect the query results in SSMS. No application screenshot is claimed.
+
 
