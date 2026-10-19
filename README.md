@@ -81,3 +81,7 @@ The database includes queries and database objects for:
 ## Purpose
 
 This project demonstrates practical database design and T-SQL skills including relational database modeling, data integrity, reporting, aggregation, functions, stored procedures, triggers, and indexing.
+
+## Verification and screenshots
+
+This repository is a SQL Server script, not a web application, so it has no pages to screenshot. The T-SQL file is [workDB.sql](workDB.sql). A local SQL Server service was present, but this script was not executed against an existing server because it creates or changes database objects. Run it in a dedicated development database and review the query results in SSMS. No application screenshot is claimed.
