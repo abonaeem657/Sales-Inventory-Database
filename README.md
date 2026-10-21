@@ -1,6 +1,12 @@
-﻿# Sales & Inventory Management Database
+# Sales & Inventory Management Database
 
 A SQL Server database project designed to manage sales, inventory, customers, suppliers, companies, branches, warehouses, and purchase operations.
+
+## Entity relationship diagram
+
+This newly rendered diagram shows all 11 tables, their key columns, and all 15 foreign key relationships from `workDB.sql`. The [editable Mermaid source](docs/ERD.md) is available alongside it.
+
+![Sales and inventory ER diagram](docs/ERD-new.png)
 
 ## Technologies
 
