@@ -1,4 +1,9 @@
+![Sales and inventory database cover](docs/cover.svg)
+
 # Sales & Inventory Management Database
+
+[ER diagram](#entity-relationship-diagram) | [Features](#database-features) | [Run the script](#how-to-run)
+
 
 A SQL Server database project designed to manage sales, inventory, customers, suppliers, companies, branches, warehouses, and purchase operations.
 
